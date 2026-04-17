@@ -20,6 +20,10 @@ namespace Infrastucture.Persistence.Configurations
             builder.Property(b => b.Testament)
                 .IsRequired();
 
+            builder.Property(b => b.Abbreviature)
+                .IsRequired()
+                .HasMaxLength(3);
+
             builder.HasMany(b => b.Chapters)
                 .WithOne(c => c.Book)
                 .HasForeignKey(c => c.BookId)

@@ -2,7 +2,7 @@
 {
     public enum TestamentEnum
     {
-        NewTestament = 1,
-        OldTestament = 2
+        OldTestament = 1,
+        NewTestament = 2
     }
 }

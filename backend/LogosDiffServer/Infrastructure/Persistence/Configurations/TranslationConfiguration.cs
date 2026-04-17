@@ -14,6 +14,13 @@ namespace Infrastucture.Persistence.Configurations
                 .IsRequired()
                 .HasMaxLength(200);
 
+            builder.Property(x => x.Abbreviature)
+                .IsRequired()
+                .HasMaxLength(10);
+
+            builder.Property(x => x.Language)
+                .IsRequired();
+
             builder.HasMany(t => t.Verses)
                 .WithOne(v => v.Translation)
                 .HasForeignKey(v => v.TranslationId)
