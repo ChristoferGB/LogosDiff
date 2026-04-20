@@ -7,6 +7,6 @@
         public int NumberOfVerses { get; set; }
 
         public Guid BookId { get; set; }
-        public Book Book { get; set; } = new();
+        public Book? Book { get; set; }
     }
 }

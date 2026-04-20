@@ -7,9 +7,9 @@
         public string Content { get; set; } = string.Empty;
 
         public Guid ChapterId { get; set; }
-        public Chapter Chapter { get; set; } = new();
+        public Chapter? Chapter { get; set; }
 
         public Guid TranslationId { get; set; }
-        public Translation Translation { get; set; } = new();
+        public Translation? Translation { get; set; }
     }
 }

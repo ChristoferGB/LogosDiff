@@ -7,6 +7,7 @@ namespace Domain.Model.Entities
         public Guid Id { get; set; }
         public string Name { get; set; } = string.Empty;
         public string Abbreviature { get; set; } = string.Empty;
+        public int Index { get; set; }
         public int NumberOfChapters { get; set; }
         public TestamentEnum Testament { get; set; }
         

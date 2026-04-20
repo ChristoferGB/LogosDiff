@@ -17,6 +17,9 @@ namespace Infrastucture.Persistence.Configurations
             builder.Property(b => b.NumberOfChapters)
                 .IsRequired();
 
+            builder.Property(b => b.Index)
+                .IsRequired();
+
             builder.Property(b => b.Testament)
                 .IsRequired();
 
