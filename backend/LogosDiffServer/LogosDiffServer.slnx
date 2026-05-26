@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="API/API.csproj" />
-  <Project Path="Infrastructure/Infrastucture.csproj" />
+  <Project Path="DataRW/DataRW.csproj" Id="746116a4-1182-47ce-9c9f-e85afb53b259" />
   <Project Path="Domain/Domain.csproj" />
+  <Project Path="Infrastructure/Infrastucture.csproj" />
 </Solution>
